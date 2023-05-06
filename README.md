@@ -4,7 +4,7 @@ This is a web-based implementation of the classic word-guessing game, Wordle, bu
 
 ## Getting Started
 
-To play the game, simply visit the deployed web application [here](https://example.com/wordle-game). Alternatively, you can clone this repository and run the game locally on your machine.
+To play the game, simply visit the deployed web application [here](https://aydenjahola.github.io/Wordle). Alternatively, you can clone this repository and run the game locally on your machine.
 
 ### Prerequisites
 
@@ -14,19 +14,19 @@ To run the game locally, you will need to have [Node.js](https://nodejs.org/en/)
 
 1. Clone this repository to your machine using the following command:
 
-```
-git clone https://github.com/example/wordle-game.git
+```sh
+git clone git@github.com:aydenjahola/Wordle.git
 ```
 
 2. Navigate into the cloned directory:
 
-```
-cd wordle-game
+```sh
+cd Wordle
 ```
 
 3. Install the necessary dependencies using yarn:
 
-```
+```sh
 yarn install
 ```
 
@@ -34,7 +34,7 @@ yarn install
 
 To run the game, simply run the following command from within the cloned directory:
 
-```
+```sh
 yarn start
 ```
 
