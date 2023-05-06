@@ -56,4 +56,4 @@ This will start the development server and launch the game in your default web b
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aydenjahola/Wordle/blob/main/LICENSE) file for details.
