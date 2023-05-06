@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Wordle Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web-based implementation of the classic word-guessing game, Wordle, built using ReactJS. In this game, players are presented with a randomly generated five-letter word, and have six attempts to correctly guess the word by entering five-letter words.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To play the game, simply visit the deployed web application [here](https://example.com/wordle-game). Alternatively, you can clone this repository and run the game locally on your machine.
 
-### `yarn start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the game locally, you will need to have [Node.js](https://nodejs.org/en/) and [yarn](https://yarnpkg.com/) installed on your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installing
 
-### `yarn test`
+1. Clone this repository to your machine using the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/example/wordle-game.git
+```
 
-### `yarn build`
+2. Navigate into the cloned directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cd wordle-game
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the necessary dependencies using yarn:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn install
+```
 
-### `yarn eject`
+### Running the Game
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the game, simply run the following command from within the cloned directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This will start the development server and launch the game in your default web browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Play
 
-## Learn More
+1. The game will generate a random five-letter word for the player to guess.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. The player has six attempts to guess the word by entering a five-letter word into the input field and clicking the "Guess" button.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. After each guess, the game will display feedback indicating which letters in the player's guess are correct and in the correct position (marked with a black dot), and which letters are correct but in the wrong position (marked with a white dot).
 
-### Code Splitting
+4. If the player correctly guesses the word within six attempts, they win the game. Otherwise, they lose.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+- ReactJS - The web framework used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
