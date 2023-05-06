@@ -40,6 +40,16 @@ yarn start
 
 This will start the development server and launch the game in your default web browser.
 
+## Contributing
+
+We welcome contributions from anyone! To contribute to this project, please follow these steps:
+
+1.  Fork this repository
+2.  Create a new branch (git checkout -b new-feature)
+3.  Make your changes and commit them (git commit -am 'Add new feature')
+4.  Push to the branch (git push origin new-feature)
+5.  Create a new pull request and describe your changes in detail
+
 ## How to Play
 
 1. The game will generate a random five-letter word for the player to guess.
