@@ -30,6 +30,12 @@ cd Wordle
 yarn install
 ```
 
+##Words
+
+the words are stored in `src/wordle-bank.txt`, please feel free to add more words or change them. the app only checks if the words exists in that file.
+
+please make sure that words dont already exist if you want to add more words.
+
 ### Running the Game
 
 To run the game, simply run the following command from within the cloned directory:
