@@ -60,9 +60,9 @@ We welcome contributions from anyone! To contribute to this project, please foll
 
 1. The game will generate a random five-letter word for the player to guess.
 
-2. The player has six attempts to guess the word by entering a five-letter word into the input field and clicking the "Guess" button.
+2. The player has six attempts to guess the word by entering a five-letter word into the input field and clicking the "ENTER" button.
 
-3. After each guess, the game will display feedback indicating which letters in the player's guess are correct and in the correct position (marked with a black dot), and which letters are correct but in the wrong position (marked with a white dot).
+3. After each guess, the game will display feedback indicating which letters in the player's guess are correct and in the correct position (marked with green), and which letters are correct but in the wrong position (marked with orange).
 
 4. If the player correctly guesses the word within six attempts, they win the game. Otherwise, they lose.
 
