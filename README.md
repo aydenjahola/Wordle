@@ -30,7 +30,7 @@ cd Wordle
 yarn install
 ```
 
-##Words
+## Words
 
 the words are stored in `src/wordle-bank.txt`, please feel free to add more words or change them. the app only checks if the words exists in that file.
 
